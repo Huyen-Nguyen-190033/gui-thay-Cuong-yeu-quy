@@ -1,0 +1,82 @@
+<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAPPY TEACHER'S DAY!</title>
+</head>
+<body>
+    <div class="card-container">
+        <div class="card">
+            <p class='title'>This website is dedicated to celebrate Vietnamese Teacher's Day - November 20</p>
+            <br>
+            <div class="flex">
+                <div class="music" style="width: 60%; padding-right: 9px;">
+                    <iframe width="100%" height="92.8%" src="https://youtu.be/590JcSYwl7Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <!-- <iframe width="100%" height="92.8%" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                    <p>^ Play the video</p>
+                </div>
+                <div class="portrait" style="width: 40%;">
+                    <img src="class-photo.jpg" alt="Happy teacher's day">
+                    <p>Wish the teacher an awesome journey!</p>
+                </div>
+                
+            </div>
+        
+            <br>
+            
+            <div class="flex">
+                <h3 class="wish">
+                    <img src="Letter-to-thay-Cuong.png" alt="Happy teacher's day">
+                    
+                </h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+<p class="watermark">Made by your SE students with love</p>
+
+<style>
+    @tailwind base;
+
+    @tailwind components;
+
+    @tailwind utilities;
+
+    .card-container {
+        margin: 0 20px;
+    }
+    .card {
+        width: 100%;
+        max-width: 800px;
+        text-align: center;
+        margin: 25px auto;
+        padding: 20px;
+        border: 2px solid #800000;
+        border-radius: 10px;
+    }
+
+    .title {
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    .wish {
+        text-align: left;
+        margin: 0 5%;
+        font-style: italic;
+    }
+
+    .watermark {
+        position: absolute;
+        right: 0px;
+        padding: 20px;
+    }
+
+</style>
